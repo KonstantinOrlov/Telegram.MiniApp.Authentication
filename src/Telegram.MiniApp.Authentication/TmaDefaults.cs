@@ -5,23 +5,18 @@ namespace Neftm.TelegramMiniApp.Authorization;
 /// </summary>
 public static class TmaDefaults
 {
-	/// <summary>
-	/// Default authentication scheme
-	/// </summary>
-	public const string AuthenticationScheme = "TMA";
-	
-	/// <summary>
-	/// Token prefix
-	/// </summary>
-	public const string TokenPrefix = "Tma ";
-	
-	/// <summary>
-	/// Default authorization policy name
-	/// </summary>
-	public const string DefaultPolicy = "TmaPolicy";
-	
-	/// <summary>
-	/// Default authorization policy name for premium user access
-	/// </summary>
-	public const string PremiumPolicy = "TmaPremiumPolicy";
+    /// <summary>
+    /// Default authentication scheme
+    /// </summary>
+    public const string AuthenticationScheme = "TMA";
+
+    /// <summary>
+    /// Default authorization policy name
+    /// </summary>
+    public const string DefaultPolicy = "TmaPolicy";
+
+    /// <summary>
+    /// Default authorization policy name for premium user access
+    /// </summary>
+    public const string PremiumPolicy = "TmaPremiumPolicy";
 }
